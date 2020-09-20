@@ -57,5 +57,8 @@
         "webpack-dev-server": "^3.9.0",
         "webpack-glob-folder-entries": "^1.0.0",
         "webpack-merge": "^4.2.2"
+    },
+    "dependencies": {
+        "pobeda-ui": "^0.7.2"
     }
 }
