@@ -83,7 +83,7 @@ module.exports = {
     },
     entry: {
         "index": [
-            `${PATHS.src}/js/index.jsx`,
+            `${PATHS.src}/js/index.js`,
             `${PATHS.src}/scss/index.js`,
         ]
     },
@@ -93,7 +93,7 @@ module.exports = {
         publicPath: "/"
     },
     resolve: {
-        extensions: ['.js', '.jsx', '.vue'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
         alias: {
             '@': path.resolve(__dirname, '../src/js'),
         }

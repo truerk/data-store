@@ -27,28 +27,6 @@ module.exports = merge(config, {
         }),
     ],
     optimization: {
-        minimize: true,
-        // splitChunks: {
-        //     cacheGroups: {
-        //         pobeda: {
-        //             name: 'pobeda-components',
-        //             test: /[\\/]pobeda-components[\\/]/,
-        //             chunks: 'all',
-        //             enforce: true
-        //         },
-        //         reactVendor: {
-        //             test: /[\\/]node_modules[\\/](react|simplebar-react)(.[a-zA-Z0-9.\-_]+)[\\/]/,
-        //             name: "reactvendors",
-        //             chunks: 'all',
-        //             enforce: true,
-        //         },
-        //         vendor: {
-        //             test: /[\\/]node_modules[\\/](?!react|simplebar-react)(.[a-zA-Z0-9.\-_]+)[\\/]/,
-        //             name: 'vendors',
-        //             chunks: 'all',
-        //             enforce: true,
-        //         },
-        //     }
-        // }
+        minimize: true
     },
 });
